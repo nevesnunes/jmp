@@ -8,10 +8,8 @@
 
 * Just like you can launch applications from your terminal (either directly or through `xdg-open`), you may be inside a terminal when you want to switch to another window
 * In case you don't have a running terminal, you can bind a keyboard shortcut to launch a terminal, passing `jmp` as the command to run. For example, with `uxterm` (assuming `jmp` is in your `$PATH`):
+   `uxterm -e jmp`
 
-```
-uxterm -e jmp
-```
 
 ## Dependencies
 
