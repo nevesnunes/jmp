@@ -4,7 +4,7 @@
 #include <ncurses.h>
 
 #include "all.h"
-#include "jmp.h"
+#include "hints.h"
 #include "options.h"
 
 #define MAX_BUFFER_SIZE 1024
