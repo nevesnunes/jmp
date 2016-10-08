@@ -71,10 +71,6 @@ window_t** make_windows(const char *hints) {
             if (*err || errno == EINVAL || errno == ERANGE)
                 continue;
 
-            // Should skip panels and other such windows
-            if (!client_name || (strcmp(client_name, "N/A") == 0))
-                continue;
-
             // Skip windows without titles
             if (!title || (strcmp(title, "") == 0))
                 continue;
